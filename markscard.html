@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="registerbody">
+		<div id="form">
+		<form action="">
+				<div id="form11">
+					<div id="heading">
+						<h3>Markscard Sheet</h3>
+					</div>
+					<table>
+						<tr>
+							<td><label>USN :</label></td>
+							<td><input type="text" id="inp1" name="usn" /></td>
+						</tr>
+						<tr>
+							<td><label>Name :</label></td>
+							<td><input type="text" id="inp2" name="name" /></td>
+						</tr>
+						<tr>
+							<td><label>Father Name :</label></td>
+							<td><input type="text" id="inp3" name="fathername" /></td>
+						</tr>
+						<tr>
+							<td><label>College :</label></td>
+							<td><input type="text" id="inp4" name="college" /></td>
+						</tr>
+						<tr>
+							<td><label>Slno :</label></td>
+							<td><input type="number" id="inp5" name="slno" /></td>
+						</tr>
+						<tr>
+							<td><label>Course Code 1:</label></td>
+							<td><input type="text" id="inp6" name="coursecode1" /></td>
+						</tr>
+						<tr>
+							<td><label>Course Name 1:</label></td>
+							<td><input type="text" id="inp7" name="coursename1" /></td>
+						</tr>
+						<tr>
+							<td><label>Grade Points 1:</label></td>
+							<td><input type="number" id="inp8" name="gradepoints1" /></td>
+						</tr>
+						<tr>
+							<td><label>Course Code 2:</label></td>
+							<td><input type="text" id="inp9" name="coursecode2" /></td>
+						</tr>
+						<tr>
+							<td><label>Course Name 2:</label></td>
+							<td><input type="text" id="inp10" name="coursename2" /></td>
+						</tr>
+						<tr>
+							<td><label>Grade Points 2:</label></td>
+							<td><input type="number" id="inp11" name="gradepoints2" /></td>
+						</tr>
+						<tr>
+							<td><label>Course Code 3:</label></td>
+							<td><input type="text" id="inp12" name="coursecode3" /></td>
+						</tr>
+						<tr>
+							<td><label>Course Name 3:</label></td>
+							<td><input type="text" id="inp13" name="coursename3" /></td>
+						</tr>
+						<tr>
+							<td><label>Grade Points 3:</label></td>
+							<td><input type="number" id="inp14" name="gradepoints3" /></td>
+						</tr>
+					</table>
+					<button id="btn">submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script>
+        let btn=document.querySelector("#btn");
+
+console.log(btn);
+
+
+btn.addEventListener("click",(e)=>{
+	e.preventDefault();
+let inp1=document.querySelector("#inp1").value;
+let inp2=document.querySelector("#inp2").value;
+let inp3=document.querySelector("#inp3").value;
+let inp4=document.querySelector("#inp4").value;
+let inp5=document.querySelector("#inp5").value;
+let inp6=document.querySelector("#inp6").value;
+let inp7=document.querySelector("#inp7").value;
+let inp8=document.querySelector("#inp8").value;
+let inp9=document.querySelector("#inp9").value;
+let inp10=document.querySelector("#inp10").value;
+let inp11=document.querySelector("#inp11").value;
+let inp12=document.querySelector("#inp12").value;
+let inp13=document.querySelector("#inp13").value;
+let inp14=document.querySelector("#inp14").value;
+console.log(inp1);
+console.log(inp2);
+	if(inp1!=null&&inp2!=null&&inp3!=null&&inp4!=null&&inp5!=null&&inp6!=null&&inp7!=null&&inp7!=null&&inp8!=null&&inp9!=null&&inp10!=null&&inp11!=null&&inp12!=null&&inp13!=null&&inp14!=null){
+		alert("data stored sucessfully")
+	}else{
+        alert("add datas properly")
+    }
+})
+	</script>
+</body>
+</html>

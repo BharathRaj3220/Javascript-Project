@@ -1,0 +1,365 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+ }
+ 
+ .mainblock{
+     background-color: rgb(15,6,23);
+     height: 75px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .block1{
+     height: 73px;
+     width: 600px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: rgba(236, 234, 234, 0.911);
+     list-style-type: none;
+     padding-left: 40px;
+     padding-top: 5px;
+ }
+ 
+ .block2{
+     height: 73px;
+     width: 700px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     list-style-type: none;
+     padding-top: 5px;
+ }
+ 
+ .img1{
+     width: 46px;
+     height: 46px;
+ }
+ 
+ .search1{
+     background-color: rgb(15,6,23);
+     font-size: smaller;
+     padding-left: 20px;
+     width: 250px;
+     height: 34px;
+     border-style: none;
+ 
+ }
+ 
+ 
+ .language{
+     width: 25px;
+     border-radius: 40%;
+     height: 40px;
+     color: white;
+     background-color: rgb(15,6,23);
+     border-top-style: none;
+     border-left-style: none;
+ }
+ 
+ .login{
+     border: 1px solid white;
+     background-color: rgb(15,6,23);
+     color: white;
+     width: 80px;
+     height: 35px;
+     border-radius: 3px;
+ }
+ 
+ .buyplan{
+     background-color: rgb(130,48,198);
+     width: 100px;
+     height: 35px;
+     color: white;
+     font-family: 'Times New Roman', Times, serif;
+     border-radius: 5px;
+ }
+ 
+ .login:hover{
+     background-color: white;
+     color: rgb(15,6,23);
+ }
+ 
+ .carousel-inner{
+     padding-top: 20px;
+     height: 500px;
+     background-color: rgb(15,6,23);
+     color: white;
+ }
+ 
+ .movies{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(15,6,23);
+     height: 400px;
+ }
+ 
+ .a1{
+     background-color: rgb(15,6,23);
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100px
+ }
+ 
+ .a11{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 40px;
+ }
+ 
+ .a12{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-right: 60px;
+     color: rgb(117,79,179);
+ }
+ 
+ .movies{
+     height: 350px;
+     padding-left: 40px;
+     padding-right: 40px;
+ }
+ 
+ .b1{
+     background-color: rgb(15,6,23);
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100px
+ }
+ 
+ .b11{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 40px;
+ }
+ 
+ .b12{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-right: 60px;
+     color: rgb(117,79,179);
+ }
+ 
+ .movies1{
+     height: 350px;
+     padding-left: 40px;
+     padding-right: 40px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(15,6,23);
+   
+ }
+ 
+ .c1{
+     background-color: rgb(15,6,23);
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100px
+ }
+ 
+ .c11{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 40px;
+ }
+ 
+ .c12{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-right: 60px;
+     color: rgb(117,79,179);
+ }
+ 
+ .movies2{
+     height: 350px;
+     padding-left: 40px;
+     padding-right: 40px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(15,6,23);
+ }
+ .myfoot{
+     height: 500px;
+     background-color: rgb(15,6,23);
+     color: white;
+ }
+ 
+ .hori{
+     border-bottom: 1px solid rgb(50, 47, 47);
+     height: 30px;
+     background-color: rgb(15,6,23);
+ 
+ }
+ 
+ .v1{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100px;
+     list-style: none;
+     padding-left: 100px;
+ }
+ 
+ .v2{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 400px;
+ }
+ 
+ .v3{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .v4{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: rgb(50, 47, 47);
+ }
+ 
+ .v5{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+     width: 600px;
+     padding-left: 100px;
+     height: 20px;
+ }
+ 
+ .f1{
+     display: flex;
+     justify-content: space-between;
+     align-items: normal;
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 70px;
+     list-style: none;
+     line-height: 2;
+     font-size: smaller ;
+ }
+ 
+ .l1{
+     color:rgb(50, 47, 47); ;
+ }
+ 
+ .pr{
+     font-size: small;
+     padding-left: 60px;
+ }
+ 
+ .hello:hover{
+     position: relative;
+     transform: scale(1.1,0.9);
+     background-color: rgb(255, 255, 255);
+     padding-bottom:90px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-right: 10px;
+ }
+
+ .movies__link{
+    display: none ;
+ }
+
+ .hello:hover >.movies__link{
+    display: block;
+
+ }
+
+ .bye:hover{
+   color: rgb(255, 255, 255);
+   text-decoration-line: underline;
+ }
+
+
+.ght
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hello{
+    border-radius: 8px;
+}
+
+.hem{
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(15,6,23);
+    border: 1px solid rgb(78, 79, 79);
+    font-size: small;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.material-symbols-outlined
+{
+    color: white;
+    padding-top: 5px;
+  
+}
+
+.hem:hover
+{
+    transform: scaleX(1.1);
+}
+
+.poo{
+    display: flex;
+    align-items: center;
+    border-style: none  ;
+    color: white;
+   
+}
+
+.l1:active{
+    color: rgb(78, 14, 134);
+}
+
+
+.non1{
+    
+     border-radius: 3px;
+    background-color: white;
+    color: black;
+}
+
+.non2{
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+}
+
+
+.movies__link{
+padding-top: 20px;
+}
+

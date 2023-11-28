@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Flag Animation</title>
+    <style>
+        body{
+            background-size: 100%;
+            background-image: url(https://www.shutterstock.com/shutterstock/photos/790282159/display_1500/stock-vector-illustration-of-tricolor-india-background-with-nation-hero-and-freedom-fighter-like-mahatma-gandhi-790282159.jpg);
+        }
+        #flagContainer {
+            position: relative;
+            width: 150px; 
+            height: 600px; 
+            margin-top: 50px;
+            margin-left: 700px;
+        }
+
+        #flagPole {
+            position: absolute;
+            bottom: 0;
+            width: 10px;
+            height: 100%;
+            background-color: #888;
+
+        }
+
+        #indianFlag {
+            position: absolute;
+            bottom: 8%; 
+            width: 100%;
+        }
+
+        #btn{
+            background-color: greenyellow;
+            margin-left: 700px;
+            margin-top: 20px;
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+        }
+
+        @keyframes raiseFlag {
+            0% {
+                bottom: 8%;
+            }
+            100% {
+                bottom: 80%; 
+            }
+        
+        }
+    </style>
+</head>
+<body>
+    <div id="flagContainer">
+        <div id="flagPole"></div>
+        <img id="indianFlag" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png" alt="Indian Flag">
+        <audio src="" id="song"></audio>
+    </div>
+
+    <button onclick="moveFlag()" id="btn">Host the Flag</button>
+
+    <script>
+        function moveFlag() {
+            var indianFlag = document.getElementById("indianFlag");
+            document.body.style.backgroundImage="url(https://cdn.pixabay.com/photo/2023/02/18/05/28/freedom-fighter-7797302_1280.jpg)";
+            indianFlag.style.animation = "none";
+            indianFlag.style.bottom = "80%";
+
+            let song=document.querySelector("#song");
+            song.src="Jana Gana Mana Song Download(SongsZilla.Net).mp3";
+            
+            setTimeout(function() {
+                indianFlag.style.animation = "raiseFlag 5s linear forwards";
+                song.play();
+            }, 100);
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
